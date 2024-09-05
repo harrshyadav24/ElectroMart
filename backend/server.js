@@ -1,6 +1,6 @@
 // Learn Express Middleware In 14 Minutes- https://youtu.be/lY6icfhap2o
 import 'dotenv/config';
-// import cors from 'cors';
+import cors from 'cors';
 // import dotenv        from 'dotenv';
 // dotenv.config();
 import path          from 'path';
@@ -22,7 +22,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // It parses incoming requests with URL-encoded payloads (like form submissions).
 app.use(cookieParser());
-// app.use(cors());
+app.use(cors());
 
 
 // app.use() is used to mount middleware functions in the middleware stack
