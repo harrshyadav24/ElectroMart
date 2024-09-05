@@ -11,7 +11,7 @@
 
 
 export const BASE_URL     = 'https://electro-mart-gamma.vercel.app/'; 
-export const PRODUCTS_URL = 'https://electro-mart-gamma.vercel.app/api/products';       
-export const USERS_URL    = 'https://electro-mart-gamma.vercel.app/api/users';
-export const ORDERS_URL   = 'https://electro-mart-gamma.vercel.app/api/orders';
-export const PAYPAL_URL   = 'https://electro-mart-gamma.vercel.app/api/config/paypal';
+export const PRODUCTS_URL = 'api/products';       
+export const USERS_URL    = 'api/users';
+export const ORDERS_URL   = 'api/orders';
+export const PAYPAL_URL   = 'api/config/paypal';
