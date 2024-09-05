@@ -41,11 +41,13 @@ if (process.env.NODE_ENV == 'production') {
   app.use('/uploads', express.static('/var/data/uploads'));
   app.use(express.static(path.join(__dirname, '/frontend/build')));
   
-  console.log("before app get *");
-  app.get('*', (req, res) =>
+  app.get('*', (req, res) =>{
+
+    console.log("before app get *");
     res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
+    console.log("after app get *");
+  }
 );
-console.log("after app get *");
 } 
 else {
   const __dirname = path.resolve();
