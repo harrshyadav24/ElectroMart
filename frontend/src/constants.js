@@ -10,8 +10,8 @@
 
 
 
-export const BASE_URL     = 'http://localhost:10000'; 
-export const PRODUCTS_URL = 'http://localhost:10000/api/products';       
-export const USERS_URL    = 'http://localhost:10000/api/users';
-export const ORDERS_URL   = 'http://localhost:10000/api/orders';
-export const PAYPAL_URL   = 'http://localhost:10000/api/config/paypal';
+export const BASE_URL     = 'https://electro-mart-gamma.vercel.app'; 
+export const PRODUCTS_URL = 'https://electro-mart-gamma.vercel.app/api/products';       
+export const USERS_URL    = 'https://electro-mart-gamma.vercel.app/api/users';
+export const ORDERS_URL   = 'https://electro-mart-gamma.vercel.app/api/orders';
+export const PAYPAL_URL   = 'https://electro-mart-gamma.vercel.app/api/config/paypal';
